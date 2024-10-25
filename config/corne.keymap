@@ -68,7 +68,7 @@
    &sys_reset      &trans           &trans          &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
    &rgb_ug RGB_TOG &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
    &rgb_ug RGB_EFF &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
-                             &kp LGUI &trans 3   &kp RET   &kp SPACE   &trans    &kp RALT
+                             &kp LGUI &trans    &kp RET   &kp SPACE   &trans    &kp RALT
                         >;
                 };
         };
