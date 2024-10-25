@@ -55,5 +55,5 @@
                              &kp LGUI &trans   &kp RET   &kp SPACE   &trans    &kp RALT
                         >;
                 };
-        },
+        };
 };
