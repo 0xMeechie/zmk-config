@@ -55,21 +55,5 @@
                              &kp LGUI &mo 3   &kp RET   &kp SPACE   &trans    &kp RALT
                         >;
                 };
-
-                util_layer {
-                  display-name = "utils";
-// -----------------------------------------------------------------------------------------
-// |  RESET |    |    |    |    |    |   |    |    |    |    |    |  |
-// | RGB TGL |   HUE +  | SAT +  | BRIGHT +    |     |     |   |    |    |    |    |    |     |
-// | RGB Mode | HUE -  |  SAT -  | BRIGHT -    |     |     |   |    |    |    |    |  |     |
-//                    | |     |  |   |  |     |  |
-                        bindings = <
-
-   &sys_reset      &trans           &trans          &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
-   &rgb_ug RGB_TOG &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
-   &rgb_ug RGB_EFF &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
-                             &kp LGUI &trans    &kp RET   &kp SPACE   &trans    &kp RALT
-                        >;
-                };
         };
 };
